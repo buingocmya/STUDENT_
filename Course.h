@@ -129,39 +129,6 @@ void addnewcourse(course *& phead) {
 	a->pNext = new course;
 	a = a->pNext;
 
-	/*wcout << "ID course: ";
-	getline(std::wcin, a->IDcourse);
-
-	f << a->IDcourse << ",";
-
-	wcout << "Name course: ";
-	getline(std::wcin, a->namecourse);
-	f << a->namecourse << ",";
-
-	wcout << "Teach: ";
-	getline(std::wcin, a->teacher);
-	f << a->teacher << ",";
-
-	wcout << "Number of credits: ";
-	getline(std::wcin, a->credit);
-	f << a->credit << ",";
-
-	wcout << "Number of maxperson: ";
-	getline(std::wcin, a->maxperson);
-	f << a->maxperson << ",";
-
-	wcout << "Time of session 1(MON/TUES/...): ";
-	getline(std::wcin, a->dow1);
-	f << a->dow1 << ",";
-
-
-	wcout << "Time of session 2(MON/TUES/...): ";
-	getline(std::wcin, a->dow2);
-	f << a->dow2<<endl ;
-	
-	delete a;*/
-
-
 	wcout << "ID course: ";
 	getline(std::wcin, a->IDcourse);
 
