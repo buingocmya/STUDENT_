@@ -482,7 +482,6 @@ void read_course(wstring classx, STAFF*& phead1)
 			getline(student, pcur1->finalmark, L',');
 			getline(student, pcur1->orthermark, L',');
 			getline(student, pcur1->totalmark);
-			//wcin.ignore();
 			pcur1->pnext = nullptr;
 		}
 	}
