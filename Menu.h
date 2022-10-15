@@ -7,7 +7,6 @@
 using namespace std;
 
 
-//menu moi
 
 typedef char str[31];
 str thaotac[4] = { "1.Add new","2.Delete","3.List","0.Exit" };
